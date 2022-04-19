@@ -1,0 +1,31 @@
+{
+  "users": {
+    "id": "string",
+    "email": "string",
+    "fcmToken": "string"
+  },
+  "kegs": {
+    "userEditable": {
+      "location": "string",
+      "kegSize": "string",
+      "beerType": "string",
+      "firstNotificationPerc": "number",
+      "secondNotificationPerc": "number"
+    },
+    "adminEditable": {
+      "id":"string",
+      "customTare": 0,
+      "subscribed": false,
+      "userId":"string",
+      "weight":"number",
+      "temp":"number",
+      "beersDrank":"number",
+      "beersLeft":"number",
+      "dailyData":{
+        "1/1/2021":{
+          
+        }
+      }
+    }
+  }
+}

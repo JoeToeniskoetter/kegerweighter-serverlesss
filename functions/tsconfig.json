@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "es6"],
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "typeRoots": ["node_modules/@types"]
+  },
+  "compileOnSave": true,
+  "skipLibCheck": true,
+  "exclude": ["node_modules", "functions", "__test__"],
+  "include": ["**/*.ts", "**/*.tsx", "__test__/index.test.js"]
+}
